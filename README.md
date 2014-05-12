@@ -24,7 +24,7 @@ define(["route-manager"],function(routeManager){
 
 ```
 
-You can also remove routes using the method "removeRoute" and pass as argument the route
+You can also remove routes using the method "removeRoute" passing the route as argument
 
 ```javascript
 
