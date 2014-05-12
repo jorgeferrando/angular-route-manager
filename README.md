@@ -1,7 +1,7 @@
 angular-route-manager
 =====================
 
-a simple service to add routes dynamically to your app
+a simple service to add routes dynamically to your app based on this fiddle I found [jsFiddle](http://jsfiddle.net/5FUQa/1/)
 
 Just add to your angular app and use it inside a controller, directive or other service.
 
