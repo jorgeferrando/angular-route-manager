@@ -23,3 +23,11 @@ define(["route-manager"],function(routeManager){
 });
 
 ```
+
+You can also remove routes using the method "removeRoute" and pass as argument the route
+
+```javascript
+
+routeManager.removeRoute("/dynamicroute");
+
+```

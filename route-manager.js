@@ -48,8 +48,15 @@ define([], function () {
             return this;
         }
 
+        function removeRoute(path) {
+            delete $route.routes[path];
+            delete $route.routes[path + "/"];
+            return this;
+        }
+
         return {
-            addRoute: addRoute
+            addRoute: addRoute,
+            removeRoute: removeRoute
         };
 
     }
